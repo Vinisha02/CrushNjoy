@@ -1,0 +1,66 @@
+* {
+    padding: 50px;
+    margin: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Change font */
+      
+  }
+  
+  
+  .menu-section {
+    text-align: center;
+  }
+  
+  .orange-heading {
+    padding: 30px;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #FF5733; 
+  }
+  
+  .menu-section h1 {
+    padding-top: 20px;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .menu-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    height: 500px;
+    margin: 30px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 400px; /* Set a fixed height for each image */
+    object-fit: cover; /* Ensure the images cover the entire container */
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    font-weight: bold;
+    text-align: center; /* Align text center */
+  }
+  
